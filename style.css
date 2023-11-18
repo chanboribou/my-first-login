@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://media.tenor.com/7tEE9cM7eW8AAAAC/sweety-glitch-miku.gif');
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2022/08/hatsune-milu-and-rella-4k_1660352099-2048x1152.jpg.webp');
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -18,7 +18,7 @@ body {
 
 label {
     color:white;
-    align-items: center;
+    align-items:center;
     font-size:34px;
 }
 
@@ -36,19 +36,19 @@ label:hover {
 .flex-col {
     width: 250px;
     flex-direction: column;
-    border: 5px solid rgb(245, 202, 255);
-    border-radius: 30px;
-    background-color: rgb(245, 202, 255);
+    border: 5px solid rgb(5, 154, 156);
+    border-radius: 5px;
+    background-color: rgb(105, 123, 123);
     transition: all 500ms;
     animation: border-animation 4s infinite;
 }
 
 @keyframes border-animation {
     0%{border:5px solidrgb(245, 202, 255);}
-    25%{border:5px solid rgb(255, 236, 174)}
-    50%{border:5px solid rgb(195, 255, 195);}
-    70%{border: 5px solid pink;}
-    100%{border:5px solid aqua;}
+    25%{border:5px solid rgb(189, 253, 255)}
+    50%{border:5px solid rgb(136, 196, 192);}
+    70%{border: 5px solid rgb(186, 233, 234);}
+    100%{border:5px solid rgb(125, 255, 233);}
 }
 
 .flex-col:hover {
@@ -62,19 +62,19 @@ button {
     color:white;
     border:none;
     font-size:20px;
-    border-radius: 20px;
+    border-radius: 25px;
     margin:10px;
-    padding:10px;
+    padding:5px;
     animation: example 4s infinite;
     
 }
 
 @keyframes example {
-    0% {background-color: pink; border: 2px solid rgb(235, 137, 255)}
-    25% {background-color: aqua; border: 2px solid yellow}
-    50% {background-color: yellow; border: 2px solid aquamarine;}
-    70% {background-color: rgb(255, 218, 255); border: 2px solid rgb(187, 227, 255)}
-    100% {background-color:rgb(195, 255, 195); border: 2px solid rgb(255, 214, 221)}
+    0% {background-color: rgb(174, 255, 251);}
+    25% {background-color: rgb(126, 218, 218);}
+    50% {background-color: rgb(72, 182, 174);}
+    70% {background-color: rgb(197, 255, 248);}
+    100% {background-color:rgb(19, 167, 150);}
 }
 
 
@@ -128,4 +128,3 @@ input {
 .btn:focus { background-color: #ffdb3a; }
 
 .btn:active {background-color:aquamarine};
-
