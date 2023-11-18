@@ -1,0 +1,131 @@
+body {
+    background-image: url('https://media.tenor.com/7tEE9cM7eW8AAAAC/sweety-glitch-miku.gif');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 90vw;
+    height:90vh;
+}
+.heading {
+    color:rgb(255, 255, 255);
+    height: 50px;
+}
+#a {
+    text-align: center;
+    font-size:50px;
+}
+
+
+label {
+    color:white;
+    align-items: center;
+    font-size:34px;
+}
+
+label:hover {
+    transition: all 500ms;
+    text-shadow: 10px 10px 10px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.flex-col {
+    width: 250px;
+    flex-direction: column;
+    border: 5px solid rgb(245, 202, 255);
+    border-radius: 30px;
+    background-color: rgb(245, 202, 255);
+    transition: all 500ms;
+    animation: border-animation 4s infinite;
+}
+
+@keyframes border-animation {
+    0%{border:5px solidrgb(245, 202, 255);}
+    25%{border:5px solid rgb(255, 236, 174)}
+    50%{border:5px solid rgb(195, 255, 195);}
+    70%{border: 5px solid pink;}
+    100%{border:5px solid aqua;}
+}
+
+.flex-col:hover {
+    border-color:rgb(255, 236, 174);
+    border-radius: 10px;
+    width: 300px;
+}
+
+button {
+    background-color:rgb(3, 231, 252);
+    color:white;
+    border:none;
+    font-size:20px;
+    border-radius: 20px;
+    margin:10px;
+    padding:10px;
+    animation: example 4s infinite;
+    
+}
+
+@keyframes example {
+    0% {background-color: pink; border: 2px solid rgb(235, 137, 255)}
+    25% {background-color: aqua; border: 2px solid yellow}
+    50% {background-color: yellow; border: 2px solid aquamarine;}
+    70% {background-color: rgb(255, 218, 255); border: 2px solid rgb(187, 227, 255)}
+    100% {background-color:rgb(195, 255, 195); border: 2px solid rgb(255, 214, 221)}
+}
+
+
+input {
+    border-radius: 100px;
+    width:225px;
+    height: 40px;
+    border: none;
+}
+
+.flex-col2 {
+    background-color: yellow;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+
+}
+
+.box--one {
+    height: 10px;
+    width: 10px;
+}
+
+.box--two {
+    height: 10vh;
+    width: 10vw;
+}
+
+.box--three {
+    height: 10em;
+    width: 10em;
+}
+
+.box--four {
+    height: 10rem;
+    width: 10rem;
+}
+
+.btn:hover {
+    background-color: rgb(175, 254, 171);
+}
+
+.btn:focus { background-color: #ffdb3a; }
+
+.btn:active {background-color:aquamarine};
+
