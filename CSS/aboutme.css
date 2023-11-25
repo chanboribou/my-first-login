@@ -1,0 +1,60 @@
+body{
+    background-image:url(https://i.pinimg.com/originals/fd/4c/9d/fd4c9d7e63e3687287fe027ab0ddf816.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+header {
+    background-color:rgb(41, 83, 124);
+}
+
+header ul {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+header ul > li {
+    list-style: none;
+    font-size: 30px;
+}
+
+header li:hover {
+    text-decoration: underline;
+    color:rgb(143, 208, 255);
+}
+
+footer {
+    background-color: pink;
+}
+
+.about-me {
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    width: 1250px;
+    background-color:rgb(65, 90, 114);
+}
+
+.information {
+    display:flex;
+    gap:20px;
+}
+
+p {
+    color:white;
+    display: flex;
+}
+
+li {
+    color:white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
