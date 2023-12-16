@@ -24,7 +24,7 @@ input {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: #5299fc;
   color: white;
   padding: 10px;
   border: none;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #5299fc;
 }
 
 .top-progress-bar {
@@ -112,7 +112,7 @@ button:hover {
   height: 3px;
   bottom: 0;
   left: 0;
-  background: #37bc9b;
+  background: #598eff;
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
