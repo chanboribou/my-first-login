@@ -3,7 +3,7 @@
 /* Timeline custom component */
 
 .timeline {
-  border-left: 2px solid #e6e9ed;
+  border-left: 2px solid #0054c2;
   padding: 1rem 0;
 }
 
@@ -22,7 +22,7 @@
   content: "";
   display: inline-block;
   position: absolute;
-  background-color: #fff;
+  background-color: #acd5f9;
   border-radius: 10px;
   width: 12px;
   height: 12px;

@@ -9,12 +9,12 @@ html {
   padding: 0;
   font-size: 1.25rem;
   line-height: 2.5rem;
-  color: rgba(0, 0, 0, 0.5); }
+  color: rgb(22, 104, 155); }
 
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(47, 111, 179, 0.8); }
 
 .nav-item + .nav-item {
   margin-left: 1rem; }
